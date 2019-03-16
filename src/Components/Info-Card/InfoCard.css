@@ -1,0 +1,50 @@
+.infoGrid .bigAvatar {
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    background-image: url(../../Img/self.jpeg);
+    border: 3px solid rgba(232, 232, 232, 0.8);
+    box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.75) inset;
+    -moz-box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.75) inset;
+    -webkit-box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.75) inset;
+}
+
+.infoGrid .name {
+    text-align: center;
+    color: white
+}
+
+.infoGrid .position {
+    text-align: center;
+    margin-top: 5px;
+    color: white;
+    font-style: italic;
+}
+
+.infoGrid .introduction {
+    color: #4e4c4c;
+    margin: 15px 70px;
+    text-align: center;
+}
+
+.infoGrid .divider {
+    margin: 0;
+    border: none;
+    flex-shrink: 0;
+    background-color: white;
+    width: 320px;
+}
+
+.infoGrid .infoList {
+    margin: 10px 114px;
+    color: white;
+}
+
+.infoGrid .socialMedias {
+    text-align: center;
+    margin-top: 75px;
+}
+
+.infoGrid .socialMediasIcon {
+    margin: 0 20px;
+}
