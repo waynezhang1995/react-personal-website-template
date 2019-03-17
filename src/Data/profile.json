@@ -194,5 +194,31 @@
         }
       ]
     }
+  ],
+  "Projects": [
+    {
+      "Name": "TryBaidu Chrome Extension",
+      "Description": "A chrome extension that saves your time from switching between Baidu and Google",
+      "ScreenShotURL": "https://github.com/waynezhang1995/Personal-Website/blob/master/src/Img/TrybaiduExtension.png?raw=true",
+      "ProjectLink":"https://github.com/waynezhang1995/TryBaidu-Chrome-Extension"
+    },
+    {
+      "Name": "BlackJack Simulator written in React",
+      "Description": "A simple web-based Blackjack simulator written in React 🎉",
+      "ScreenShotURL": "https://github.com/waynezhang1995/Personal-Website/blob/master/src/Img/TrybaiduExtension.png?raw=true",
+      "ProjectLink":"https://github.com/waynezhang1995/TryBaidu-Chrome-Extension"
+    },
+    {
+      "Name": "TryBaidu Chrome Extension",
+      "Description": "A chrome extension that saves your time from switching between Baidu and Google",
+      "ScreenShotURL": "https://github.com/waynezhang1995/Personal-Website/blob/master/src/Img/TrybaiduExtension.png?raw=true",
+      "ProjectLink":"https://github.com/waynezhang1995/TryBaidu-Chrome-Extension"
+    },
+    {
+      "Name": "TryBaidu Chrome Extension",
+      "Description": "A chrome extension that saves your time from switching between Baidu and Google",
+      "ScreenShotURL": "https://github.com/waynezhang1995/Personal-Website/blob/master/src/Img/TrybaiduExtension.png?raw=true",
+      "ProjectLink":"https://github.com/waynezhang1995/TryBaidu-Chrome-Extension"
+    }
   ]
 }
