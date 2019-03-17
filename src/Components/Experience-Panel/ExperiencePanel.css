@@ -1,0 +1,62 @@
+.experienceContainer {
+    padding: 35px 50px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.profile-pic {
+    height: 4vmin;
+    margin-right: 10px;
+    border-radius: 50px;
+}
+
+div.media {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+div.media .media-heading .jobTotalDuration {
+    color: #666;
+    font-size: 14px;
+    display: block;
+}
+
+div.media img {
+    height: 18vmin;
+    width: 18vmin;
+    margin-right: 30px;
+    border-radius: 50px;
+}
+
+div.media .jobDuration {
+    color: #444;
+    display: block;
+}
+
+div.media .jobLocation {
+    color: #666;
+}
+
+.formLabel {
+    font-weight: bold;
+}
+
+.certificateLink {
+    color: cornflowerblue;
+}
+
+footer {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-top: #444444;
+    text-align: center;
+}
+
+footer a {
+    color: black;
+    font-size: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+}

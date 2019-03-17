@@ -37,7 +37,7 @@ class InfoCard extends Component {
                             Wayne Zhang
                         </Typography>
                         <Typography variant="h5" className="position">
-                            Software Developer
+                            Web Developer
                         </Typography>
                         <Typography variant="h6" className="introduction">
                             Welcome to my website. My name is Wayne Zhang, I am a computer science new grad and a web developer.

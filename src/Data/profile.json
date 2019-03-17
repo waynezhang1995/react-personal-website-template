@@ -1,0 +1,46 @@
+{
+    "experiences": [
+      {
+        "companyName": "Global Relay",
+        "logo": "https://pbs.twimg.com/profile_images/696800751998271488/ed2NAzEt_400x400.png",
+        "url": "https://www.globalrelay.com/",
+        "roles": [
+          {
+            "title": "Software developer",
+            "description": "Developed web-based management system for a variety of products in Global Relay. Mostly focus on Front-End Development (React, Redux, SenCha EXTjs), partially work on maintaining backend core services (ASP.NET, Hibernate).",
+            "startDate": "2018-01-08",
+            "currentJob": true,
+            "location": "Vancouver BC. Canada"
+          }
+        ]
+      },
+      {
+        "companyName": "Redbrick Technologies",
+        "logo": "https://media.licdn.com/dms/image/C4E0BAQF4AtqcPMQTXA/company-logo_400_400/0?e=1560988800&v=beta&t=2qIp4zvvPPRPMsXOXYDniRXkJIsrK5F-lYRP8EvJ8Jk",
+        "url": "https://rdbrck.com/",
+        "roles": [
+          {
+            "title": "Full Stack Developer (Co-op)",
+            "description": "Built and updated various Chrome Extensions using TypeScript. (http://quiklogin.co/). Worked with a small team to maintain privacy-enhanced search engine applications. ",
+            "startDate": "2017-01-01",
+            "endDate": "2017-05-01",
+            "location": "Victoria BC. Canada"
+          }
+        ]
+      },
+      {
+        "companyName": "AXYS Technologies",
+        "logo": "https://media.licdn.com/dms/image/C4D0BAQEf6HamIqYtEQ/company-logo_400_400/0?e=1560988800&v=beta&t=sSfMV8lW_LDFS2ZEyKzRARq1ijLpHxbUlAgcxxBAFbw",
+        "url": "http://axystechnologies.com/",
+        "roles": [
+          {
+            "title": "Software Developer (Co-op)",
+            "description": "Updated a data post-processor tool for the new generation of Wave Sensor using Microsoft’s C#.NET. Worked with a small team to build a Web Portal to display data collected from numerous remote environmental monitoring platforms.",
+            "startDate": "2016-05-01",
+            "endDate": "2016-09-01",
+            "location": "Victoria BC. Canada"
+          }
+        ]
+      }
+    ]
+  }
