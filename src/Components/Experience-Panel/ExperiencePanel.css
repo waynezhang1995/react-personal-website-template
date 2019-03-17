@@ -1,5 +1,5 @@
 .experienceContainer {
-    padding: 35px 50px;
+    padding: 30px 30px;
 }
 
 a:hover {
@@ -26,7 +26,7 @@ div.media .media-heading .jobTotalDuration {
 div.media img {
     height: 18vmin;
     width: 18vmin;
-    margin-right: 30px;
+    margin-right: 40px;
     border-radius: 50px;
 }
 

@@ -4,6 +4,7 @@ import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import ExperiencePanel from '../Experience-Panel/ExperiencePanel';
+import SkillPanel from '../Skill-Panel/SkillPanel';
 import './DetailTabPanel.css';
 
 const styles = {
@@ -49,7 +50,7 @@ class DetailTabPanel extends Component {
                     </Tabs>
                 </AppBar>
                 {value === 0 && <ExperiencePanel></ExperiencePanel>}
-                {value === 1 && <TabContainer>Item Two</TabContainer>}
+                {value === 1 && <SkillPanel></SkillPanel>}
                 {value === 2 && <TabContainer>Item Three</TabContainer>}
                 {value === 3 && <TabContainer>Item Three</TabContainer>}
                 {value === 4 && <TabContainer>Item Three</TabContainer>}

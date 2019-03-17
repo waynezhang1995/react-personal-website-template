@@ -6,12 +6,6 @@ import { Media } from "reactstrap";
 
 import './ExperiencePanel.css';
 
-function getDuration(duration) {
-    const years = parseInt(duration / 12);
-    const months = (duration > 12) ? duration % 12 : duration
-    return (years > 0 ? years + " year" + (years > 1 ? "s" : "") + " and " : "") + (months > 0 ? months + " month" + (months > 1 ? "s" : "") : "");
-};
-
 const styles = {
     experienceContainer: 'experienceContainer'
 }
@@ -22,10 +16,9 @@ class ExperiencePanel extends Component {
             <Container className={styles.experienceContainer}>
                 <Row>
                     <Col>
-                        {profile.experiences.map(function (experience, i) {
+                        {profile.experiences.map((experience, i) => {
                             moment.locale('en');
-
-                            const totalDuration = experience.roles.reduce(function (cnt, role) {
+                            experience.roles.reduce(function (cnt, role) {
                                 const startDate = moment(role.startDate);
                                 const timeEnd = moment(role.currentJob ? new Date() : new Date(role.endDate));
                                 const duration = moment.duration(timeEnd.diff(startDate));

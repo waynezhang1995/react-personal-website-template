@@ -1,0 +1,12 @@
+.skillChip {
+    margin: 8px;
+}
+
+.skillChip span {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.tabPanelRoot .skillPanelDetail {
+    display: inline-block;
+}
