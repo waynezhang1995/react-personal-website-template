@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import InfoPanel from './Components/Info-Panel/InfoPanel';
-import DetailTabPanel from './Components/Detail-TabPanel/DetailTabPanel';
+import InfoPanel from './components/info-panel/InfoPanel';
+import DetailTabPanel from './components/detail-tabpanel/DetailTabPanel';
 
 class App extends Component {
     render() {

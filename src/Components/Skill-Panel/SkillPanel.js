@@ -5,7 +5,7 @@ import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
 import Typography from '@material-ui/core/Typography';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import Chip from '@material-ui/core/Chip';
-import profile from '../../Data/profile';
+import profile from '../../data/profile';
 import StarIcon from '@material-ui/icons/Star';
 import './SkillPanel.css';
 
@@ -21,7 +21,7 @@ class SkillPanel extends Component {
                 {
                     profile.Skills.map((skill) => {
                         return (
-                            <ExpansionPanel defaultExpanded>
+                            <ExpansionPanel key={skill.Area} defaultExpanded>
                                 <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
                                     <Typography variant="h5">{skill.Area}</Typography>
                                 </ExpansionPanelSummary>
@@ -30,10 +30,11 @@ class SkillPanel extends Component {
                                         skill.SkillSet.map((skillDetail) => {
                                             return (
                                                 <Chip
-                                                    icon={skillDetail.Hot ? <StarIcon /> : ''}
+                                                    icon={skillDetail.Hot ? <StarIcon /> : null}
                                                     label={skillDetail.Name}
                                                     className={styles.skillChip}
                                                     color="primary"
+                                                    key={skillDetail.Name}
                                                 />
                                             );
                                         })

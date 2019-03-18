@@ -5,3 +5,13 @@
 .tabPanelText {
     outline: none !important;
 }
+
+/* .react-swipeable-view-container {
+    max-height: calc(100vh + 50px);
+} */
+
+.tabPanelText span {
+    font-weight: bold;
+    /* font-size: 18px;
+    padding: 8px; */
+}

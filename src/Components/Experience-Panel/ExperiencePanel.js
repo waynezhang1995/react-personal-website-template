@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from "reactstrap";
-import profile from "../../Data/profile";
+import profile from "../../data/profile";
 import moment from "moment";
 import { Media } from "reactstrap";
 

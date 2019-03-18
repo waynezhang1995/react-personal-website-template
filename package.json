@@ -10,6 +10,7 @@
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-scripts": "2.1.8",
+    "react-swipeable-views": "^0.13.1",
     "reactstrap": "^7.1.0"
   },
   "scripts": {
