@@ -1,10 +1,10 @@
 {
-  "Name": "Wayne (Yuwei) Zhang",
-  "Position": "Web Developer",
-  "Description": "Welcome to my website. My name is Wayne Zhang, I am a computer science new grad and a web developer.",
-  "Address": "Vancouver BC. Canada",
-  "Company": "Global Relay",
-  "School": "University of Victoria",
+  "Name": "Demo User",
+  "Position": "Software Developer",
+  "Description": "Welcome to my website. My name is Demo User,I ❤️ Programming.",
+  "Address": "ShenZhen, China",
+  "Company": "Future Technologies",
+  "School": "University of Demo",
   "SocialMedias": [
     "https://github.com/waynezhang1995",
     "https://www.linkedin.com/in/wayne-zhang-ab5534129/",
@@ -12,13 +12,13 @@
   ],
   "experiences": [
     {
-      "companyName": "Global Relay",
-      "logo": "https://pbs.twimg.com/profile_images/696800751998271488/ed2NAzEt_400x400.png",
-      "url": "https://www.globalrelay.com/",
+      "companyName": "Future Technologies",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+      "url": "https://www.google.com/",
       "roles": [
         {
           "title": "Software developer",
-          "description": "Developed web-based management system for a variety of products in Global Relay. Mostly focus on Front-End Development (React, Redux, SenCha EXTjs), partially work on maintaining backend core services (ASP.NET, Hibernate).",
+          "description": "Developed web-based Software.",
           "startDate": "2018-01-08",
           "currentJob": true,
           "location": "Vancouver BC. Canada"
@@ -26,30 +26,30 @@
       ]
     },
     {
-      "companyName": "Redbrick Technologies",
-      "logo": "https://media.licdn.com/dms/image/C4E0BAQF4AtqcPMQTXA/company-logo_400_400/0?e=1560988800&v=beta&t=2qIp4zvvPPRPMsXOXYDniRXkJIsrK5F-lYRP8EvJ8Jk",
-      "url": "https://rdbrck.com/",
+      "companyName": "Demo1 Technologies",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+      "url": "https://www.google.com/",
       "roles": [
         {
-          "title": "Full Stack Developer (Co-op)",
-          "description": "Built and updated various Chrome Extensions using TypeScript. (http://quiklogin.co/). Worked with a small team to maintain privacy-enhanced search engine applications. ",
+          "title": "Full Stack Developer",
+          "description": "Built and updated various Chrome Extensions.",
           "startDate": "2017-01-01",
           "endDate": "2017-05-01",
-          "location": "Victoria BC. Canada"
+          "location": "New York, USA"
         }
       ]
     },
     {
-      "companyName": "AXYS Technologies",
-      "logo": "https://media.licdn.com/dms/image/C4D0BAQEf6HamIqYtEQ/company-logo_400_400/0?e=1560988800&v=beta&t=sSfMV8lW_LDFS2ZEyKzRARq1ijLpHxbUlAgcxxBAFbw",
-      "url": "http://axystechnologies.com/",
+      "companyName": "Demo2 Technologies",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+      "url": "https://www.google.com/",
       "roles": [
         {
-          "title": "Software Developer (Co-op)",
-          "description": "Updated a data post-processor tool for the new generation of Wave Sensor using Microsoft’s C#.NET. Worked with a small team to build a Web Portal to display data collected from numerous remote environmental monitoring platforms.",
+          "title": "UI Designer",
+          "description": "Design user-fridendly web page",
           "startDate": "2016-05-01",
           "endDate": "2016-09-01",
-          "location": "Victoria BC. Canada"
+          "location": "Beijing, China"
         }
       ]
     }
@@ -100,10 +100,6 @@
           "Hot": false
         },
         {
-          "Name": "SenCha (Extjs)",
-          "Hot": true
-        },
-        {
           "Name": "JQuery",
           "Hot": false
         },
@@ -138,10 +134,6 @@
         },
         {
           "Name": "My SQL",
-          "Hot": false
-        },
-        {
-          "Name": "Redis",
           "Hot": false
         }
       ]
@@ -208,55 +200,49 @@
   ],
   "Projects": [
     {
-      "Name": "TryBaidu Chrome Extension",
-      "Description": "A chrome extension that saves your time from switching between Baidu and Google",
-      "ScreenShotURL": "./TrybaiduExtension.png",
-      "ProjectLink":"https://github.com/waynezhang1995/TryBaidu-Chrome-Extension"
+      "Name": "Demo Project 1",
+      "Description": "Demo",
+      "ScreenShotURL": "./demo.svg",
+      "ProjectLink":"https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg"
     },
     {
-      "Name": "BlackJack Simulator written in React",
-      "Description": "A simple web-based Blackjack simulator written in React 🎉",
-      "ScreenShotURL": "./BlackjackSimulator.png",
-      "ProjectLink":"https://github.com/waynezhang1995/Blackjack-Simulator"
+      "Name": "Demo Project 2",
+      "Description": "Demo",
+      "ScreenShotURL": "./demo.svg",
+      "ProjectLink":"https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg"
     },
     {
-      "Name": "Victutors.com",
-      "Description": "A tutor finding website in Victoria B.C.",
-      "ScreenShotURL": "./Victutor.png",
-      "ProjectLink":"https://github.com/waynezhang1995/Victutors.com-Deprecated"
-    },
-    {
-      "Name": "React Material UI Personal Resume Website Template",
-      "Description": "A personal resume website template written in React with Material UI theme.",
-      "ScreenShotURL": "./PersonalWebsiteTemplate.png",
-      "ProjectLink":"https://github.com/waynezhang1995/Personal-Website"
+      "Name": "Demo Project 3",
+      "Description": "Demo",
+      "ScreenShotURL": "./demo.svg",
+      "ProjectLink":"https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg"
     }
   ],
   "Education": [
     {
-      "SchoolName": "University of Victoria",
+      "SchoolName": "University of Demo",
       "Date": "2013 - 2017",
       "Degree": "Bachelor of Science - BS, Computer Science",
-      "Location": "Victoria BC. Canada",
-      "Description": "Work Experience, Graduated with Distinction",
-      "SchoolImage": "https://media.licdn.com/dms/image/C560BAQEo4ZvWzpKgEw/company-logo_400_400/0?e=1560988800&v=beta&t=QKrE-wDf5zatNMmOGnq9FDizfmU3HrRddsCJmByMoyY",
-      "SchoolLink": "https://www.uvic.ca/",
+      "Location": "Vancouver BC. Canada",
+      "Description": "Demo",
+      "SchoolImage": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+      "SchoolLink": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
       "Awards": [
         {
-          "Name": "First place winner of Battlesnake 2017 advanced division",
+          "Name": "Award 1",
           "Date": "Mar 2017",
-          "Region": "Victoria BC. Canada",
-          "Organization": "Sendwithus",
-          "Description": "With team: “Better Than Alkexy’s Snake”. Grand Price: 1000$ BattleSnake is a programming competition held in Victoria, BC. Teams of students and developers build web-based AIs for the classic arcade game \"Snake\". Multiple teams will compete on the same board at the same time, and the winner will be the last team slithering!",
-          "Link": "https://www.battlesnake.io/"
+          "Region": "Vancouver BC. Canada",
+          "Organization": "Demo",
+          "Description": "Demo award",
+          "Link": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg"
         },
         {
-          "Name": "Engineering Dean's List",
-          "Date": "May 2018",
-          "Region": "Victoria BC. Canada",
-          "Organization": "University of Victoria - Faculty of Engineering",
-          "Description": "The Faculty of Engineering Dean's List recognizes the top 10% of current undergraduate students by year based on sessional GPA and of graduating students based on their graduating GPA. Students who complete their graduation requirements \"With Distinction\"",
-          "Link": "https://www.uvic.ca/engineering/about/index.php"
+          "Name": "Award 2",
+          "Date": "May 2019",
+          "Region": "Toronto ON. Canada",
+          "Organization": "Demo",
+          "Description": "Demo award",
+          "Link": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg"
         }
       ]
     }
