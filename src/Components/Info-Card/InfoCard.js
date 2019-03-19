@@ -10,6 +10,7 @@ import LocationCityIcon from '@material-ui/icons/LocationCity';
 import WorkIcon from '@material-ui/icons/Work';
 import { SocialIcon } from 'react-social-icons';
 import SchoolIcon from '@material-ui/icons/School';
+import profile from '../../data/profile';
 import './InfoCard.css';
 
 const styles = {
@@ -17,12 +18,13 @@ const styles = {
     infoGrid: 'infoGrid',
     bigAvatar: 'bigAvatar',
     infoList: 'infoList',
+    infoIcon: 'infoIcon',
     divider: 'divider',
     socialMedias: 'socialMedias',
     socialMediasIcon: 'socialMediasIcon'
 }
 
-const socialMediaList = ['https://github.com/waynezhang1995', 'https://www.linkedin.com/in/wayne-zhang-ab5534129/', 'https://www.facebook.com/wayne.zhang.3'];
+const socialMediaList = profile.SocialMedias;
 
 class InfoCard extends Component {
     render() {
@@ -30,39 +32,39 @@ class InfoCard extends Component {
             <div>
                 <Grid container className={styles.infoGrid} justify="center" alignItems="center">
                     <Grid item>
-                        <Avatar alt="Remy Sharp" className={styles.bigAvatar} />
+                        <Avatar alt={profile.Name} className={styles.bigAvatar} src={require("../../img/self.jpeg")} />
                     </Grid>
                     <Grid item xs={12}>
                         <Typography variant="h3" className="name">
-                            Wayne Zhang
+                            {profile.Name}
                         </Typography>
                         <Typography variant="h5" className="position">
-                            Web Developer
+                            {profile.Position}
                         </Typography>
                         <Typography variant="h6" className="introduction">
-                            Welcome to my website. My name is Wayne Zhang, I am a computer science new grad and a web developer.
+                        {profile.Description}
                         </Typography>
                     </Grid>
                     <Divider className={styles.divider} variant="middle" />
                     <Grid item xs={12}>
                         <List className={styles.infoList}>
                             <ListItem>
-                                <Avatar>
+                                <Avatar className={styles.infoIcon}>
                                     <LocationCityIcon />
                                 </Avatar>
-                                <ListItemText primary="Vancouver BC. Canada"/>
+                                <ListItemText primary={profile.Address}/>
                             </ListItem>
                             <ListItem>
-                                <Avatar>
+                                <Avatar className={styles.infoIcon}>
                                     <WorkIcon />
                                 </Avatar>
-                                <ListItemText primary="Global Relay"/>
+                                <ListItemText primary={profile.Company}/>
                             </ListItem>
                             <ListItem>
-                                <Avatar>
+                                <Avatar className={styles.infoIcon}>
                                     <SchoolIcon />
                                 </Avatar>
-                                <ListItemText primary="University of Victoria"/>
+                                <ListItemText primary={profile.School}/>
                             </ListItem>
                         </List>
                     </Grid>

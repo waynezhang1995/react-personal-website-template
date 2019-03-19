@@ -2,7 +2,6 @@
     margin: 10px;
     width: 200px;
     height: 200px;
-    background-image: url(../../img/self.jpeg);
     border: 3px solid rgba(232, 232, 232, 0.8);
     box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.75) inset;
     -moz-box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.75) inset;
@@ -22,7 +21,7 @@
 }
 
 .infoGrid .introduction {
-    color: #4e4c4c;
+    color: white;
     margin: 15px 70px;
     text-align: center;
 }
@@ -47,4 +46,13 @@
 
 .infoGrid .socialMediasIcon {
     margin: 0 20px;
+}
+
+.infoList span {
+    color: white;
+}
+
+.infoList .infoIcon {
+    color: #3f51b5;
+    background-color: white;
 }

@@ -1,4 +1,15 @@
 {
+  "Name": "Wayne (Yuwei) Zhang",
+  "Position": "Web Developer",
+  "Description": "Welcome to my website. My name is Wayne Zhang, I am a computer science new grad and a web developer.",
+  "Address": "Vancouver BC. Canada",
+  "Company": "Global Relay",
+  "School": "University of Victoria",
+  "SocialMedias": [
+    "https://github.com/waynezhang1995",
+    "https://www.linkedin.com/in/wayne-zhang-ab5534129/",
+    "https://www.facebook.com/wayne.zhang.3"
+  ],
   "experiences": [
     {
       "companyName": "Global Relay",
@@ -226,9 +237,28 @@
       "SchoolName": "University of Victoria",
       "Date": "2013 - 2017",
       "Degree": "Bachelor of Science - BS, Computer Science",
+      "Location": "Victoria BC. Canada",
       "Description": "Work Experience, Graduated with Distinction",
       "SchoolImage": "https://media.licdn.com/dms/image/C560BAQEo4ZvWzpKgEw/company-logo_400_400/0?e=1560988800&v=beta&t=QKrE-wDf5zatNMmOGnq9FDizfmU3HrRddsCJmByMoyY",
-      "SchoolLink": "https://www.uvic.ca/"
+      "SchoolLink": "https://www.uvic.ca/",
+      "Awards": [
+        {
+          "Name": "First place winner of Battlesnake 2017 advanced division",
+          "Date": "Mar 2017",
+          "Region": "Victoria BC. Canada",
+          "Organization": "Sendwithus",
+          "Description": "With team: “Better Than Alkexy’s Snake”. Grand Price: 1000$ BattleSnake is a programming competition held in Victoria, BC. Teams of students and developers build web-based AIs for the classic arcade game \"Snake\". Multiple teams will compete on the same board at the same time, and the winner will be the last team slithering!",
+          "Link": "https://www.battlesnake.io/"
+        },
+        {
+          "Name": "Engineering Dean's List",
+          "Date": "May 2018",
+          "Region": "Victoria BC. Canada",
+          "Organization": "University of Victoria - Faculty of Engineering",
+          "Description": "The Faculty of Engineering Dean's List recognizes the top 10% of current undergraduate students by year based on sessional GPA and of graduating students based on their graduating GPA. Students who complete their graduation requirements \"With Distinction\"",
+          "Link": "https://www.uvic.ca/engineering/about/index.php"
+        }
+      ]
     }
   ]
 }
