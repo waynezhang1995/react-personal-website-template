@@ -6,6 +6,7 @@ import Typography from '@material-ui/core/Typography';
 import { withStyles } from '@material-ui/core/styles';
 import ExperiencePanel from '../experience-panel/ExperiencePanel';
 import SkillPanel from '../skill-panel/SkillPanel';
+import EducationPanel from '../education-panel/EducationPanel';
 import ProjectTabPanel from '../project-tabpanel/ProjectTabPanel';
 import SwipeableViews from 'react-swipeable-views';
 import './DetailTabPanel.css';
@@ -66,7 +67,7 @@ class DetailTabPanel extends Component {
                     <ExperiencePanel dir={theme.direction}></ExperiencePanel>
                     <SkillPanel dir={theme.direction}></SkillPanel>
                     <ProjectTabPanel dir={theme.direction}></ProjectTabPanel>
-                    <TabContainer dir={theme.direction}>Coming soon</TabContainer>
+                    <EducationPanel dir={theme.direction}></EducationPanel>
                     <TabContainer dir={theme.direction}>Item Three</TabContainer>
                 </SwipeableViews>
             </div>

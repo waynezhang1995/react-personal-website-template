@@ -220,5 +220,15 @@
       "ScreenShotURL": "./PersonalWebsiteTemplate.png",
       "ProjectLink":"https://github.com/waynezhang1995/Personal-Website"
     }
+  ],
+  "Education": [
+    {
+      "SchoolName": "University of Victoria",
+      "Date": "2013 - 2017",
+      "Degree": "Bachelor of Science - BS, Computer Science",
+      "Description": "Work Experience, Graduated with Distinction",
+      "SchoolImage": "https://media.licdn.com/dms/image/C560BAQEo4ZvWzpKgEw/company-logo_400_400/0?e=1560988800&v=beta&t=QKrE-wDf5zatNMmOGnq9FDizfmU3HrRddsCJmByMoyY",
+      "SchoolLink": "https://www.uvic.ca/"
+    }
   ]
 }
