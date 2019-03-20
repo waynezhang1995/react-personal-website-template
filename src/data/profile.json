@@ -1,0 +1,250 @@
+{
+    "Name": "Demo User",
+    "Position": "Software Developer",
+    "Description": "Welcome to my website. My name is Demo User,I ❤️ Programming.",
+    "Address": "ShenZhen, China",
+    "Company": "Future Technologies",
+    "School": "University of Demo",
+    "SocialMedias": [
+      "https://github.com/waynezhang1995",
+      "https://www.linkedin.com/in/wayne-zhang-ab5534129/",
+      "https://www.facebook.com/wayne.zhang.3"
+    ],
+    "experiences": [
+      {
+        "companyName": "Future Technologies",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+        "url": "https://www.google.com/",
+        "roles": [
+          {
+            "title": "Software developer",
+            "description": "Developed web-based Software.",
+            "startDate": "2018-01-08",
+            "currentJob": true,
+            "location": "Vancouver BC. Canada"
+          }
+        ]
+      },
+      {
+        "companyName": "Demo1 Technologies",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+        "url": "https://www.google.com/",
+        "roles": [
+          {
+            "title": "Full Stack Developer",
+            "description": "Built and updated various Chrome Extensions.",
+            "startDate": "2017-01-01",
+            "endDate": "2017-05-01",
+            "location": "New York, USA"
+          }
+        ]
+      },
+      {
+        "companyName": "Demo2 Technologies",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+        "url": "https://www.google.com/",
+        "roles": [
+          {
+            "title": "UI Designer",
+            "description": "Design user-fridendly web page",
+            "startDate": "2016-05-01",
+            "endDate": "2016-09-01",
+            "location": "Beijing, China"
+          }
+        ]
+      }
+    ],
+    "Skills": [
+      {
+        "Area": "Programming Language",
+        "SkillSet": [
+          {
+            "Name": "Java",
+            "Hot": true
+          },
+          {
+            "Name": "C#",
+            "Hot": false
+          },
+          {
+            "Name": "Python",
+            "Hot": false
+          }
+        ]
+      },
+      {
+        "Area": "Web-Based Application Development",
+        "SkillSet": [
+          {
+            "Name": "JavaScript (ES5, ES6)",
+            "Hot": true
+          },
+          {
+            "Name": "TypeScript",
+            "Hot": false
+          },
+          {
+            "Name": "HTML5",
+            "Hot": true
+          },
+          {
+            "Name": "CSS (SCSS/SASS)",
+            "Hot": true
+          },
+          {
+            "Name": "React",
+            "Hot": true
+          },
+          {
+            "Name": "Redux",
+            "Hot": false
+          },
+          {
+            "Name": "JQuery",
+            "Hot": false
+          },
+          {
+            "Name": "NPM",
+            "Hot": false
+          },
+          {
+            "Name": "Grunt",
+            "Hot": false
+          },
+          {
+            "Name": "Jamine JavaScript Unit Test",
+            "Hot": true
+          },
+          {
+            "Name": "WebPack",
+            "Hot": false
+          },
+          {
+            "Name": "UX/UI Design",
+            "Hot": false
+          }
+        ]
+      },
+      {
+        "Area": "Database",
+        "SkillSet": [
+          {
+            "Name": "Microsoft SQL",
+            "Hot": false
+          },
+          {
+            "Name": "My SQL",
+            "Hot": false
+          }
+        ]
+      },
+      {
+        "Area": "Platforms",
+        "SkillSet": [
+          {
+            "Name": "Windows",
+            "Hot": false
+          },
+          {
+            "Name": "Unix/Linux",
+            "Hot": false
+          },
+          {
+            "Name": "Mac OS",
+            "Hot": false
+          }
+        ]
+      },
+      {
+        "Area": "Test Driven Development",
+        "SkillSet": [
+          {
+            "Name": "Junit Test",
+            "Hot": false
+          },
+          {
+            "Name": "Jasmine Test",
+            "Hot": true
+          },
+          {
+            "Name": "MSTest",
+            "Hot": false
+          },
+          {
+            "Name": "Selenium Functional Test",
+            "Hot": false
+          }
+        ]
+      },
+      {
+        "Area": "Software Development Tools and Concepts",
+        "SkillSet": [
+          {
+            "Name": "Git",
+            "Hot": true
+          },
+          {
+            "Name": "Docker",
+            "Hot": false
+          },
+          {
+            "Name": "Jenkins",
+            "Hot": false
+          },
+          {
+            "Name": "Agile",
+            "Hot": true
+          }
+        ]
+      }
+    ],
+    "Projects": [
+      {
+        "Name": "Demo Project 1",
+        "Description": "Demo",
+        "ScreenShotURL": "./demo.svg",
+        "ProjectLink":"https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg"
+      },
+      {
+        "Name": "Demo Project 2",
+        "Description": "Demo",
+        "ScreenShotURL": "./demo.svg",
+        "ProjectLink":"https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg"
+      },
+      {
+        "Name": "Demo Project 3",
+        "Description": "Demo",
+        "ScreenShotURL": "./demo.svg",
+        "ProjectLink":"https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg"
+      }
+    ],
+    "Education": [
+      {
+        "SchoolName": "University of Demo",
+        "Date": "2013 - 2017",
+        "Degree": "Bachelor of Science - BS, Computer Science",
+        "Location": "Vancouver BC. Canada",
+        "Description": "Demo",
+        "SchoolImage": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+        "SchoolLink": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+        "Awards": [
+          {
+            "Name": "Award 1",
+            "Date": "Mar 2017",
+            "Region": "Vancouver BC. Canada",
+            "Organization": "Demo",
+            "Description": "Demo award",
+            "Link": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg"
+          },
+          {
+            "Name": "Award 2",
+            "Date": "May 2019",
+            "Region": "Toronto ON. Canada",
+            "Organization": "Demo",
+            "Description": "Demo award",
+            "Link": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg"
+          }
+        ]
+      }
+    ]
+  }
