@@ -11,18 +11,7 @@ import WorkIcon from '@material-ui/icons/Work';
 import { SocialIcon } from 'react-social-icons';
 import SchoolIcon from '@material-ui/icons/School';
 import profile from '../../data/profile';
-import './InfoCard.css';
-
-const styles = {
-    infoPaper: 'infoPaper',
-    infoGrid: 'infoGrid',
-    bigAvatar: 'bigAvatar',
-    infoList: 'infoList',
-    infoIcon: 'infoIcon',
-    divider: 'divider',
-    socialMedias: 'socialMedias',
-    socialMediasIcon: 'socialMediasIcon'
-}
+import styles from './InfoCard.module.css';
 
 const socialMediaList = profile.SocialMedias;
 
@@ -35,13 +24,13 @@ class InfoCard extends Component {
                         <Avatar alt={profile.Name} className={styles.bigAvatar} src={require("../../img/self.jpeg")} />
                     </Grid>
                     <Grid item xs={12}>
-                        <Typography variant="h3" className="name">
+                        <Typography variant="h3" className={styles.name}>
                             {profile.Name}
                         </Typography>
-                        <Typography variant="h5" className="position">
+                        <Typography variant="h5" className={styles.position}>
                             {profile.Position}
                         </Typography>
-                        <Typography variant="h6" className="introduction">
+                        <Typography variant="h6" className={styles.introduction}>
                         {profile.Description}
                         </Typography>
                     </Grid>

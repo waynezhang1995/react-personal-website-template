@@ -1,4 +1,4 @@
-.tabPanelRoot .projectPanel {
+.projectPanel {
     padding: 40px;
 }
 
@@ -9,7 +9,3 @@
 .openDetail {
     outline: none !important;
 }
-
-/* .openDetailActionPanel {
-    justify-content: center;
-} */

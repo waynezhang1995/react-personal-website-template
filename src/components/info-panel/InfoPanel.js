@@ -1,12 +1,7 @@
 import React, { Component } from 'react';
 import Drawer from '@material-ui/core/Drawer';
 import InfoCard from '../info-card/InfoCard'
-import './InfoPanel.css';
-
-const styles = {
-    drawer: 'drawer',
-    drawerPaper: 'drawerPaper'
-}
+import styles from './InfoPanel.module.css';
 
 class InfoPanel extends Component {
     render() {

@@ -6,12 +6,6 @@ a:hover {
     text-decoration: none;
 }
 
-.profile-pic {
-    height: 4vmin;
-    margin-right: 10px;
-    border-radius: 50px;
-}
-
 div.media {
     margin-top: 30px;
     margin-bottom: 50px;

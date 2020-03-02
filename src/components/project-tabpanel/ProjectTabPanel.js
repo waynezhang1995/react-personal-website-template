@@ -7,16 +7,7 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import profile from '../../data/profile';
-import './ProjectTabPanel.css';
-
-const styles = {
-    projectImg: 'projectImg',
-    projectPanel: 'projectPanel',
-    projectName: 'projectName',
-    projectDescription: 'projectDescription',
-    openDetail: 'openDetail',
-    openDetailActionPanel: 'openDetailActionPanel'
-}
+import styles from './ProjectTabPanel.module.css';
 
 class ProjectTabPanel extends Component {
     constructor(props) {
