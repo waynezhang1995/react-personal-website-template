@@ -7,17 +7,12 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import Chip from '@material-ui/core/Chip';
 import profile from '../../data/profile';
 import StarIcon from '@material-ui/icons/Star';
-import './SkillPanel.css';
-
-const styles = {
-    skillChip: 'skillChip',
-    skillPanelDetail: 'skillPanelDetail'
-}
+import styles from './SkillPanel.module.css';
 
 class SkillPanel extends Component {
     render() {
         return (
-            <div>
+            <div className={styles.skillPanel}>
                 {
                     profile.Skills.map((skill) => {
                         return (
@@ -42,7 +37,6 @@ class SkillPanel extends Component {
                                 </ExpansionPanelDetails>
                             </ExpansionPanel>
                         );
-
                     })
                 }
 

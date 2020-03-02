@@ -4,11 +4,7 @@ import profile from "../../data/profile";
 import moment from "moment";
 import { Media } from "reactstrap";
 
-import './ExperiencePanel.css';
-
-const styles = {
-    experienceContainer: 'experienceContainer'
-}
+import styles from './ExperiencePanel.module.css';
 
 class ExperiencePanel extends Component {
     render() {
@@ -27,7 +23,7 @@ class ExperiencePanel extends Component {
 
                             return (
                                 <div key={i}>
-                                    <Media>
+                                    <Media className={styles.media}>
                                         <Media left top href={experience.url}>
                                             <Media object src={experience.logo} alt={experience.companyName} />
                                         </Media>
@@ -43,9 +39,9 @@ class ExperiencePanel extends Component {
                                                 return <div key={i}>
                                                     <h5>{role.title}</h5>
                                                     <span
-                                                        className="jobDuration">{startDate.format('MMM YYYY')} - {role.currentJob ? 'Present' : timeEnd.format('MMM YYYY')}</span>
-                                                    <span className="jobLocation">{role.location}</span>
-                                                    <p className="jobDescription">{role.description}</p>
+                                                        className={styles.jobDuration}>{startDate.format('MMM YYYY')} - {role.currentJob ? 'Present' : timeEnd.format('MMM YYYY')}</span>
+                                                    <span className={styles.jobLocation}>{role.location}</span>
+                                                    <p className={styles.jobDescription}>{role.description}</p>
                                                 </div>
                                             })}
                                         </Media>

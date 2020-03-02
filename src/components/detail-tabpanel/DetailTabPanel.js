@@ -8,13 +8,7 @@ import SkillPanel from '../skill-panel/SkillPanel';
 import EducationPanel from '../education-panel/EducationPanel';
 import ProjectTabPanel from '../project-tabpanel/ProjectTabPanel';
 import SwipeableViews from 'react-swipeable-views';
-import './DetailTabPanel.css';
-
-const styles = {
-    tabPanelRoot: 'tabPanelRoot',
-    tabPanelText: 'tabPanelText',
-    tabContainer: 'tabContainer'
-}
+import styles from './DetailTabPanel.module.css';
 
 class DetailTabPanel extends Component {
 
@@ -33,7 +27,7 @@ class DetailTabPanel extends Component {
 
     handleChangeIndex = index => {
         this.setState({ value: index });
-      };
+    };
 
     render() {
         const { value } = this.state;
